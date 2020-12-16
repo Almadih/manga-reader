@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Cairo:400&display=swap&subset=arabic);
+body{
+  margin: 0;
+  font-family: 'Cairo',sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f0f0f0;
+}
+
+/* span{
+  font-family: 'Material Icons' !important;
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.result{
+  display: inline-block;
+  height: 40px;
+  vertical-align: top;
+  font-size: 36px;
+  height: 48px;
+  line-height: 48px;
+  width: 30px;
+}
+.text-right{
+  text-align: right;
+}
+.text-left{
+  text-align: left;
+}
+.text-center{
+  text-align: center;
+}
+
+.avatar-x2{
+  width: 60px !important;
+  height: 60px !important;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.fab{
+  position: fixed !important;
+  right: 30px !important;
+  bottom: 30px !important;
+}
